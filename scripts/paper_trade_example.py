@@ -2,7 +2,6 @@ from hummingbot.strategy.script_strategy_base import ScriptStrategyBase
 
 class MyStrategy(ScriptStrategyBase):
     markets = { "binance_paper_trade": {"ETH-USDT"},
-                "coinbase_pro_paper_trade": {"ETH-USDT"},
                 "huobi_paper_trade": {"ETH-USDT"}}
     def __init__(self):
         super().__init__()
