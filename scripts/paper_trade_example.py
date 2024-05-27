@@ -8,4 +8,4 @@ class MyStrategy(ScriptStrategyBase):
 
     def on_tick(self):
         for connector_name, connector in self.connectors.items():
-            self.logger().info(f"Current price on {connector_name}: {connector.get_mid_price("ETH-USDT")}")
+            self.logger().info(f"Current price on {connector_name}: {connector.get_mid_price('ETH-USDT')}")
